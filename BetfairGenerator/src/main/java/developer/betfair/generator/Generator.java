@@ -16,7 +16,7 @@ public class Generator {
             // Get the example into an object we can send
             javax.xml.bind.JAXBContext jaxbCtx = javax.xml.bind.JAXBContext.newInstance(Interface.class.getPackage().getName());
             javax.xml.bind.Unmarshaller unmarshaller = jaxbCtx.createUnmarshaller();
-            String model = "SportingAPING.xml";
+            String model = "SportsAPING.xml";
             String api="betting";
             String genType = "R";
 
